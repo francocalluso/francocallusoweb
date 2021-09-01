@@ -1,0 +1,81 @@
+
+/* -------  ICONOS DE REDES FIJADOS--------- */
+@import "color";
+
+
+.fab, .far
+{
+	color:$blanco;
+	font-size:20px;
+}
+
+
+.icons 
+{
+	bottom: 2%;
+	right: 2%;
+	position:fixed;
+	z-index:100;
+
+	ul 
+	{
+	padding:initial;
+
+		li
+		{
+			height:40px;
+			width: 40px;
+			list-style-type:none;
+			padding-left: 10px;
+			padding-top: 9px;
+			margin-top:3px;
+			border-radius:8px;
+
+			
+
+		}
+	}
+}
+
+
+
+.facebook 
+{
+	background: #3b5998;
+
+}
+
+.facebook:hover 
+{
+	background:$negro;
+	transition: all 1s;
+}
+
+.instagram
+{
+	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+
+}
+
+.instagram:hover 
+{
+	background:$negro;
+	transition: all 1s;
+}
+
+.mail
+{
+	background: $magenta;
+	
+}
+
+.mail:hover 
+{
+	background:$negro;
+	transition: all 1s;
+}
+
+
+
+
+

@@ -1,0 +1,122 @@
+/* variables COLOR*/
+$blanco: whitesmoke;
+$negro: black;
+$negroTrans: rgba(0, 0, 0, 0.8);
+$negroTransMid: rgba(0,0,0,0.6);
+$negroTransClaro: rgba(0,0,0,0.1); 
+$magenta: #C13F7E;
+$backGradient: linear-gradient(153deg, rgba(167,73,238,0.6) 0%, rgba(217,54,133,0.5) 36%, rgba(88,232,233,0.5102415966386555) 64%, rgba(253,243,29,0.6530987394957983) 100%);
+$amarillo:yellow;
+$backImg: url(../img/retratoback.jpg);
+
+a:hover {
+	text-decoration:none;
+}
+a {	
+	color:$negro;
+	text-decoration:none;
+}
+
+h3 {
+	color:$magenta;
+}
+
+
+h3:hover {
+	text-decoration:none;
+}
+
+p:hover {
+	text-decoration:none;
+}
+p {
+	text-decoration:none;
+}
+
+.bg-black
+	{
+	background:#000;
+	}
+/* NAV */
+
+.barraNav {
+	background-color:$negro;
+		&__titulo {
+		color:$magenta!important;
+		}
+
+		&__titulo:hover {
+		color:$amarillo !important;
+		transition:0.6s;
+		}
+
+		&__pages a{
+		color:$blanco!important;
+		}
+
+		.current {
+		color: $amarillo !important;
+		}
+}
+
+@keyframes fadeBackground {
+	0% {background-color: $negro}
+	100% { background-color: $magenta ; }
+}
+.nav-link:hover {
+	animation-name: fadeBackground ;
+	animation-duration: 0.5s;
+	animation-fill-mode: both;
+
+}
+/* INDEX */
+
+body {
+	background:$backGradient!important;
+}
+
+.back-img {
+	background-image:$backImg;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+/* PROYECTOS */
+
+.proyItem {
+	background-color:$negroTrans;
+	&__txt {
+		background-color:$negroTrans;
+		h4 {
+			color:$magenta;
+		}
+		p {
+			color:$blanco;
+		}
+	}
+}
+/* BIO */
+
+.bio {
+	&__txt {
+	text-align:justify;
+	color:$blanco;
+	background-color:$negroTrans;
+	}
+	&__img {
+		background-image:url(../img/bioimg5.jpg);
+		background-size: cover;
+		background-attachment:fixed;
+	}
+}
+
+/* PUBLICACIONES */
+
+.pubRow{
+	
+	background-color: $negroTransClaro;
+	
+}
+
+

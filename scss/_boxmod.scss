@@ -1,0 +1,220 @@
+@import "color";
+
+
+/* BOXMOD */
+/* GENERAL + NAV */
+
+
+
+.container-fluid {
+	padding:0;
+}
+
+.row {
+	margin: 0;
+}
+
+.col-lg-12 {
+	padding: 0;
+}
+
+.col-xs-12 {
+	padding: 0;
+}
+
+.nav-link {
+	padding-right: 1.5rem!important;
+	padding-left: 1.5rem!important;
+	}
+
+/* PROYECTOS */
+
+.proyItem {
+	padding:15px;
+		&__txt{
+			padding: 0px 20px 5px 20px;
+		h4 {
+			padding: 0px 20px 5px 20px;
+			margin: 0px;
+		}
+		p {
+			padding: 20px 20px 60px 20px;
+		}
+	}
+}
+
+
+@media only screen and (min-width:768px) {
+	.proyItem {
+		&__txt{
+					padding: 20px 20px 5px 20px;
+
+		}
+	}
+}
+
+/* BIO */
+
+.bio {
+	
+
+	&__txt {
+		margin: 0 40px 0 0;
+		padding:20px;
+
+	}
+	
+}
+
+@media only screen and (min-width:768px) {
+		.bio{
+				&__txt{
+				
+				margin: 60px 30px 500px 30px;
+   				padding: 60px;
+				}
+				
+					
+			}
+		.no-overf {
+				overflow-y:hidden;
+			}
+}
+
+
+
+/* PUBLICACIONES */
+
+
+.no-overf-x {
+	overflow-x:hidden;
+}
+
+.pubRow {
+	margin: 15px 0px;
+	&__txt {
+		padding: 50px 30px;
+		margin: 0;
+	}
+	&__img {
+	width: 100vw;
+	}
+}
+
+.pubRow:hover {
+
+}
+
+@media only screen and (min-width:768px) {
+
+	.pubRow {
+	margin: 15px 0px;
+	&__txt {
+		padding: 50px 0;
+		margin: 0;
+		}
+	&__img {
+		width: auto;
+		}
+	}
+	.pubRow:hover {
+		background-color: $blanco;
+		transform: scale(111%);
+		transition:0.7s;
+	}
+}
+
+/* DISENIO SONORO */
+
+.tarjeta 
+{
+	padding:20px;
+}
+.imgDisenio 
+{
+	display:none;
+}
+
+.tarjeta
+{
+
+
+	z-index:90;
+}
+
+.listaDS
+{
+	margin-top: 10px;
+	margin-right:4rem;
+
+	li
+	{
+	margin: 35px 0px; 
+	}
+}
+
+.listaDS li:hover
+{
+	background:$blanco;
+	transform:scale(1.1);
+	padding:20px;
+	border-radius:7px;
+	transition:all 1s;
+
+}
+
+.cartelScroll 
+{
+	display:none;	
+}
+
+
+@media only screen and (min-width:768px) 
+{
+	.imgDisenio
+	{
+	display:block;
+	}
+
+	.cartelScroll
+	{	
+		display:block;
+		position:absolute;
+		left:50%;
+		bottom:3%;
+	}
+
+	.cartelScroll p
+	{
+	display:inline;
+	color:$blanco;
+	}
+
+	.fas 
+	{
+		color:$blanco;
+	}
+
+	.tarjeta
+	{
+		margin:20px;
+		display:block;
+		position:absolute;
+		left:5%;
+		top:15%;
+		z-index:200;
+	}
+
+	.listaDS
+	{
+		position: absolute;
+		margin-top: 20px;
+	
+		li
+		{
+		margin: 35px 0px; 
+		}
+	}
+
+
+}

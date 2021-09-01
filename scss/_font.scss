@@ -1,0 +1,77 @@
+/* variables FONT*/
+@import "color";
+
+
+$fontA: Barlow;
+$interlineado: 25px;
+
+
+
+
+p, h1, h2, h3, h4 {
+	font-family:$fontA;
+}
+
+
+@for $i from 3 to 8 {
+	.f-size-#{$i} {
+		font-size:4px * $i
+	}
+}
+
+.barraNav {
+	font-family:$fontA;
+	&__titulo {
+		letter-spacing:2px;
+	}
+	&__pages {
+		letter-spacing:3px;
+	}
+}
+.nav-item  {
+	font-size:0.85rem!important;
+	}
+
+/* BIO */
+
+.bio {
+	
+	&__txt {
+		line-height:$interlineado;
+	}
+}
+
+@media only screen and (min-width:768px) {
+		.bio{
+				&__txt{
+					line-height:$interlineado +10;
+				}
+			}
+		}
+
+/* DISEÑO SONORO */
+
+.listaDS  
+{
+	list-style-type:none;
+	font-family:$fontA;
+	margin-bottom:20px;
+
+
+	h3
+	{
+	font-family:$fontA;
+	font-size:25px;
+	}
+
+	h4
+	{
+		font-family:$fontA;
+		font-size:20px;
+		color:$magenta;
+	}
+	li
+	{
+		font-family:$fontA;
+	}
+}
