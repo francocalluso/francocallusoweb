@@ -67,15 +67,11 @@ body {
       color: whitesmoke; }
 
 /* BIO */
-.bio__txt {
-  text-align: justify;
-  color: whitesmoke;
-  background-color: rgba(0, 0, 0, 0.8); }
-
-.bio__img {
-  background-image: url(../img/bioimg5.jpg);
-  background-size: cover;
-  background-attachment: fixed; }
+.bio {
+  background: rgba(0, 0, 0, 0.8); }
+  .bio__txt {
+    text-align: justify;
+    color: whitesmoke; }
 
 /* PUBLICACIONES */
 .pubRow {
@@ -150,15 +146,11 @@ body {
       color: whitesmoke; }
 
 /* BIO */
-.bio__txt {
-  text-align: justify;
-  color: whitesmoke;
-  background-color: rgba(0, 0, 0, 0.8); }
-
-.bio__img {
-  background-image: url(../img/bioimg5.jpg);
-  background-size: cover;
-  background-attachment: fixed; }
+.bio {
+  background: rgba(0, 0, 0, 0.8); }
+  .bio__txt {
+    text-align: justify;
+    color: whitesmoke; }
 
 /* PUBLICACIONES */
 .pubRow {
@@ -198,7 +190,7 @@ p, h1, h2, h3, h4 {
 
 @media only screen and (min-width: 768px) {
   .bio__txt {
-    line-height: 35px; } }
+    line-height: 25px; } }
 
 /* DISEÑO SONORO */
 .listaDS {
@@ -283,15 +275,11 @@ body {
       color: whitesmoke; }
 
 /* BIO */
-.bio__txt {
-  text-align: justify;
-  color: whitesmoke;
-  background-color: rgba(0, 0, 0, 0.8); }
-
-.bio__img {
-  background-image: url(../img/bioimg5.jpg);
-  background-size: cover;
-  background-attachment: fixed; }
+.bio {
+  background: rgba(0, 0, 0, 0.8); }
+  .bio__txt {
+    text-align: justify;
+    color: whitesmoke; }
 
 /* PUBLICACIONES */
 .pubRow {
@@ -331,14 +319,23 @@ body {
     padding: 20px 20px 5px 20px; } }
 
 /* BIO */
-.bio__txt {
-  margin: 0 40px 0 0;
-  padding: 20px; }
+.biorow {
+  overflow-y: hidden; }
+
+.bio {
+  justify-content: center; }
+  .bio__txt {
+    margin: 0 40px 0 0;
+    padding: 20px; }
+  .bio__img {
+    padding: 20px; }
 
 @media only screen and (min-width: 768px) {
-  .bio__txt {
-    margin: 60px 30px 500px 30px;
-    padding: 60px; }
+  .bio {
+    height: 445px;
+    margin: 20px 70px 200px 70px; }
+    .bio__txt {
+      padding: 20px; }
   .no-overf {
     overflow-y: hidden; } }
 
@@ -409,7 +406,8 @@ body {
     position: absolute;
     left: 5%;
     top: 15%;
-    z-index: 200; }
+    z-index: 200;
+    filter: drop-shadow(15px 15px 4px rgba(0, 0, 0, 0.4)); }
   .listaDS {
     position: absolute;
     margin-top: 20px; }
@@ -485,15 +483,11 @@ body {
       color: whitesmoke; }
 
 /* BIO */
-.bio__txt {
-  text-align: justify;
-  color: whitesmoke;
-  background-color: rgba(0, 0, 0, 0.8); }
-
-.bio__img {
-  background-image: url(../img/bioimg5.jpg);
-  background-size: cover;
-  background-attachment: fixed; }
+.bio {
+  background: rgba(0, 0, 0, 0.8); }
+  .bio__txt {
+    text-align: justify;
+    color: whitesmoke; }
 
 /* PUBLICACIONES */
 .pubRow {

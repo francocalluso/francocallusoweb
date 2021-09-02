@@ -99,16 +99,13 @@ body {
 /* BIO */
 
 .bio {
+	background:$negroTrans;
+	
 	&__txt {
 	text-align:justify;
 	color:$blanco;
-	background-color:$negroTrans;
 	}
-	&__img {
-		background-image:url(../img/bioimg5.jpg);
-		background-size: cover;
-		background-attachment:fixed;
-	}
+
 }
 
 /* PUBLICACIONES */

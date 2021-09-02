@@ -55,23 +55,40 @@
 
 /* BIO */
 
+.biorow 
+{
+	overflow-y: hidden;
+}
 .bio {
+	justify-content:center;
+	
 	
 
-	&__txt {
+	&__txt 
+	{
 		margin: 0 40px 0 0;
 		padding:20px;
-
 	}
+
+	&__img
+	{
+		padding:20px;
+	}
+
+	
 	
 }
 
 @media only screen and (min-width:768px) {
 		.bio{
+
+			height:445px;
+			margin: 20px 70px 200px 70px;
+
 				&__txt{
 				
-				margin: 60px 30px 500px 30px;
-   				padding: 60px;
+				
+   				padding: 20px;
 				}
 				
 					
@@ -198,6 +215,7 @@
 		left:5%;
 		top:15%;
 		z-index:200;
+		filter: drop-shadow(15px 15px 4px rgba(0,0,0,0.4));
 	} 
 
 	.listaDS
