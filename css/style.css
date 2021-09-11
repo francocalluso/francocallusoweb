@@ -312,11 +312,16 @@ body {
       padding: 0px 20px 5px 20px;
       margin: 0px; }
     .proyItem__txt p {
-      padding: 20px 20px 60px 20px; }
+      padding: 20px 20px 0px 20px; }
+
+.btn-proy {
+  margin: 20px;
+  font-family: Barlow;
+  margin-bottom: 50px; }
 
 @media only screen and (min-width: 768px) {
   .proyItem__txt {
-    padding: 20px 20px 5px 20px; } }
+    padding: 20px 20px 0px 20px; } }
 
 /* BIO */
 .biorow {
@@ -330,6 +335,13 @@ body {
   .bio__img {
     padding: 20px; }
 
+.btn-prensa {
+  display: block;
+  position: absolute;
+  top: 97%;
+  right: 46%;
+  background-color: #C13F7E !important; }
+
 @media only screen and (min-width: 768px) {
   .bio {
     height: 445px;
@@ -337,7 +349,12 @@ body {
     .bio__txt {
       padding: 20px; }
   .no-overf {
-    overflow-y: hidden; } }
+    overflow-y: hidden; }
+  .btn-prensa {
+    display: block;
+    position: absolute;
+    top: 72%;
+    right: 46%; } }
 
 /* PUBLICACIONES */
 .no-overf-x {
@@ -498,8 +515,8 @@ body {
   font-size: 20px; }
 
 .icons {
-  bottom: 2%;
-  right: 2%;
+  bottom: 39%;
+  right: 1%;
   position: fixed;
   z-index: 100; }
   .icons ul {

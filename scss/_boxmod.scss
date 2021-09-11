@@ -38,16 +38,21 @@
 			margin: 0px;
 		}
 		p {
-			padding: 20px 20px 60px 20px;
+			padding: 20px 20px 0px 20px;
 		}
 	}
+}
+.btn-proy {
+	margin:20px;
+	font-family: Barlow;
+	margin-bottom:50px;
 }
 
 
 @media only screen and (min-width:768px) {
 	.proyItem {
 		&__txt{
-					padding: 20px 20px 5px 20px;
+					padding: 20px 20px 0px 20px;
 
 		}
 	}
@@ -74,10 +79,18 @@
 	{
 		padding:20px;
 	}
-
-	
-	
+		
 }
+
+.btn-prensa 
+{
+	display:block;	
+	position: absolute;
+	top: 97%;
+	right: 46%;
+	background-color: $magenta!important;
+}
+
 
 @media only screen and (min-width:768px) {
 		.bio{
@@ -96,6 +109,16 @@
 		.no-overf {
 				overflow-y:hidden;
 			}
+
+.btn-prensa 
+{
+	display:block;	
+	position: absolute;
+	top: 72%;
+	right: 46%;
+}
+
+
 }
 
 
