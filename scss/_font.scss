@@ -3,7 +3,7 @@
 
 
 $fontA: Barlow;
-$interlineado: 25px;
+$interlineado: 28px;
 
 
 
@@ -38,6 +38,7 @@ p, h1, h2, h3, h4 {
 	
 	&__txt {
 		line-height:$interlineado;
+		
 	}
 }
 

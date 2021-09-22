@@ -51,7 +51,7 @@ body {
   background: linear-gradient(153deg, rgba(167, 73, 238, 0.6) 0%, rgba(217, 54, 133, 0.5) 36%, rgba(88, 232, 233, 0.510242) 64%, rgba(253, 243, 29, 0.653099) 100%) !important; }
 
 .back-img {
-  background-image: url(../img/retratoback.jpg);
+  background-image: url(../img/retratoback.png);
   background-position: center;
   background-size: cover;
   background-attachment: fixed; }
@@ -130,7 +130,7 @@ body {
   background: linear-gradient(153deg, rgba(167, 73, 238, 0.6) 0%, rgba(217, 54, 133, 0.5) 36%, rgba(88, 232, 233, 0.510242) 64%, rgba(253, 243, 29, 0.653099) 100%) !important; }
 
 .back-img {
-  background-image: url(../img/retratoback.jpg);
+  background-image: url(../img/retratoback.png);
   background-position: center;
   background-size: cover;
   background-attachment: fixed; }
@@ -186,11 +186,11 @@ p, h1, h2, h3, h4 {
 
 /* BIO */
 .bio__txt {
-  line-height: 25px; }
+  line-height: 28px; }
 
 @media only screen and (min-width: 768px) {
   .bio__txt {
-    line-height: 25px; } }
+    line-height: 28px; } }
 
 /* DISEÑO SONORO */
 .listaDS {
@@ -259,7 +259,7 @@ body {
   background: linear-gradient(153deg, rgba(167, 73, 238, 0.6) 0%, rgba(217, 54, 133, 0.5) 36%, rgba(88, 232, 233, 0.510242) 64%, rgba(253, 243, 29, 0.653099) 100%) !important; }
 
 .back-img {
-  background-image: url(../img/retratoback.jpg);
+  background-image: url(../img/retratoback.png);
   background-position: center;
   background-size: cover;
   background-attachment: fixed; }
@@ -345,7 +345,7 @@ body {
 @media only screen and (min-width: 768px) {
   .bio {
     height: 445px;
-    margin: 20px 70px 200px 70px; }
+    margin: 49px 71px 200px 70px; }
     .bio__txt {
       padding: 20px; }
   .no-overf {
@@ -378,7 +378,7 @@ body {
       width: auto; }
   .pubRow:hover {
     background-color: whitesmoke;
-    transform: scale(111%);
+    transform: scale(104%);
     transition: 0.7s; } }
 
 /* DISENIO SONORO */
@@ -484,7 +484,7 @@ body {
   background: linear-gradient(153deg, rgba(167, 73, 238, 0.6) 0%, rgba(217, 54, 133, 0.5) 36%, rgba(88, 232, 233, 0.510242) 64%, rgba(253, 243, 29, 0.653099) 100%) !important; }
 
 .back-img {
-  background-image: url(../img/retratoback.jpg);
+  background-image: url(../img/retratoback.png);
   background-position: center;
   background-size: cover;
   background-attachment: fixed; }

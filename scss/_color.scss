@@ -7,11 +7,12 @@ $negroTransClaro: rgba(0,0,0,0.1);
 $magenta: #C13F7E;
 $backGradient: linear-gradient(153deg, rgba(167,73,238,0.6) 0%, rgba(217,54,133,0.5) 36%, rgba(88,232,233,0.5102415966386555) 64%, rgba(253,243,29,0.6530987394957983) 100%);
 $amarillo:yellow;
-$backImg: url(../img/retratoback.jpg);
+$backImg: url(../img/retratoback.png);
 
 a:hover {
 	text-decoration:none;
 }
+
 a {	
 	color:$negro;
 	text-decoration:none;
@@ -37,6 +38,7 @@ p {
 	{
 	background:#000;
 	}
+	
 /* NAV */
 
 .barraNav {
